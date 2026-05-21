@@ -11,7 +11,7 @@ These examples were generated while validating the first `nook-card` workflow.
 | Static card | Motion composition preview |
 | --- | --- |
 | ![PARA method Projects card](docs/images/para-method-projects.png) | ![Elephant fridge timeline preview](docs/images/elephant-timeline-preview.png) |
-| ![Elephant fridge step card](docs/images/elephant-step-open-door.png) | ![Vlog six steps motion preview](docs/images/vlog-six-steps-preview.png) |
+| ![Pop art elephant fridge step card](docs/images/elephant-step-pop-art.png) | ![Vlog six steps motion preview](docs/images/vlog-six-steps-preview.png) |
 
 ## What It Does
 
