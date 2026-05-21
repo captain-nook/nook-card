@@ -4,6 +4,15 @@
 
 It is designed for an interactive workflow: choose a card style, confirm card count and copy structure, generate static card assets, then optionally continue into transparent-background video output.
 
+## Gallery
+
+These examples were generated while validating the first `nook-card` workflow.
+
+| Static card | Motion composition preview |
+| --- | --- |
+| ![PARA method Projects card](docs/images/para-method-projects.png) | ![Elephant fridge timeline preview](docs/images/elephant-timeline-preview.png) |
+| ![Elephant fridge step card](docs/images/elephant-step-open-door.png) | ![Vlog six steps motion preview](docs/images/vlog-six-steps-preview.png) |
+
 ## What It Does
 
 - Produces structured knowledge-card specs for OpenDesign-compatible rendering.
