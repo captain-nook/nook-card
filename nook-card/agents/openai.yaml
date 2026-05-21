@@ -1,0 +1,8 @@
+interface:
+  display_name: "nook-card"
+  short_description: "Knowledge cards and Remotion-ready card videos"
+  brand_color: "#FDC703"
+  default_prompt: "Use $nook-card to create a reusable knowledge card set, then ask whether to prepare motion-ready assets or a Remotion video."
+
+policy:
+  allow_implicit_invocation: true

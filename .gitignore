@@ -1,0 +1,32 @@
+# Local dependency and build state
+node_modules/
+.pnpm-store/
+dist/
+build/
+.cache/
+*.log
+
+# Generated card and video outputs
+outputs/
+public/remotion-assets/
+*.mov
+*.webm
+*.mp4
+
+# Local Remotion validation workspace
+src/
+tools/
+package.json
+pnpm-lock.yaml
+
+# Local project notes and temporary source material
+[0-9][0-9]_*.md
+*_临时.md
+*临时*.md
+vlog*.md
+demo.png
+
+# Secrets and machine-local config
+.env
+.env.*
+*.local
