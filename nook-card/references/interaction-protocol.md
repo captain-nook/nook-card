@@ -14,9 +14,14 @@ The whole workflow has three major steps:
 
 The third step is optional. If the user only wants static cards, stop after the card assets are confirmed and exported.
 
-## Always Ask First
+## Always Ask First & Execution Intercept Lock
 
-Whenever `nook-card` is triggered, Codex must first ask for requirements unless the user has already provided enough information in the same request.
+> [!CAUTION]
+> ### 🛑 LLM RUNTIME GUARDRAIL & SOFT-LOCK
+> Whenever `nook-card` is triggered, the AI agent is strictly bound to `STATE: REQUIREMENT_GATHERING`.
+> - **The Intercept Gate**: In the first turn of any session, **DO NOT** execute any card specs, **DO NOT** invoke design renderers, and **DO NOT** silently output finished designs. You are soft-locked from code execution.
+> - **Sole Output**: You must ONLY output the **Stage 1 Step-by-Step Multiple Choice** template defined in `SKILL.md`. Absolutely **DO NOT** output large layout tables, design specs, or multi-card copy details yet. Keep the interaction to a single simple A/B choice.
+> - **Penalty**: Any attempt to bypass this progressive gate or auto-generate visual assets/specs in the first turn without explicit user confirmation is considered a fatal operational failure.
 
 Do not silently choose style, motion, text hierarchy, or output type when the user expects collaboration.
 
